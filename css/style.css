@@ -74,11 +74,18 @@ body {
     padding-right: 0.75rem;
 }
 
-#check {
-    font-size: 10px;
+.check {
+    font-size: 15px;
     color:green;
-    border: 1px green;
-    border-radius: 50%;
+    border: 1px solid green;
+    border-radius: 100%;
+}
+
+.cross {
+    font-size: 15px;
+    color:red;
+    border: 1px solid red;
+    border-radius: 100%;
 }
 
 #editorial {
@@ -129,6 +136,32 @@ body {
     padding: 0.5rem;
     background-color: #f29e33;
     border: 1px solid #f29e33;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+#website {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px; 
+    color: white;
+    border-radius: 17px;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #d863a0;
+    border: 1px solid #d863a0;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+#sales {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px; 
+    color: white;
+    border-radius: 17px;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #b0c926;
+    border: 1px solid #b0c926;
     padding-right: 0.75rem;
     padding-left: 0.75rem;
 }
