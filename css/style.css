@@ -1,0 +1,36 @@
+:root {
+    -toboo-blue: #47adf1;
+    -toboo-marine: #64c0a8;
+    -toboo-violet: #d863a0;
+    -toboo-lilla: #9c72e4;
+    -toboo-orange: #f29e33;
+    -toboo-green: #b0c926;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f6f8f9;
+}
+
+#header {
+    background-color: white;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+#titol {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #282828;
+    display: inline;
+}
+
+#main {
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
+}
