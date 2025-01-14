@@ -41,37 +41,94 @@ body {
     margin-top: 2rem;
     padding-left: 4rem;
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
+.box {
+    margin-bottom: 2rem;
+}
 
 #task {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    width: 5rem;
-    height: 1rem;
     background-color: #47adf1;
     color: white;
     border-radius: 5px;
     text-align: center;
     padding: 0.25rem;
     border: 1px solid #47adf1;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 #section {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    width: 5rem;
-    height: 1rem;
     background-color: #ffffff;
     color: #cfd5d8;
     border-radius: 5px;
     text-align: center;
     padding: 0.25rem;
     border: 1px solid #cfd5d8;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
 }
 
 #check {
+    font-size: 10px;
     color:green;
-    border: solid 1px green;
-    border-radius: 2rem;
+    border: 1px green;
+    border-radius: 50%;
+}
+
+#editorial {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+    border-radius: 17px;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #47adf1;
+    border: 1px solid ;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+#goals {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px; 
+    color: white;
+    border-radius: 17px;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #9c72e4;
+    border: 1px solid #9c72e4;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+#recruiting {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px; 
+    color: white;
+    border-radius: 17px;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #64c0a8;
+    border: 1px solid #64c0a8;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+#mobile {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px; 
+    color: white;
+    border-radius: 17px;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #f29e33;
+    border: 1px solid #f29e33;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
 }
