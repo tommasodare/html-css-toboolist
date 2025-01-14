@@ -10,6 +10,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -22,15 +23,55 @@ body {
     padding-top: 0.5rem;
 }
 
+#logo {
+    vertical-align: middle;
+}
+
 #titol {
     font-family: Arial, Helvetica, sans-serif;
     color: #282828;
     display: inline;
+    vertical-align: middle;
 }
 
 #main {
     background-color: white;
-    width: 50%;
+    width: 70%;
     margin: auto;
     margin-top: 2rem;
+    padding-left: 4rem;
+    padding-top: 1rem;
+}
+
+
+#task {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 5rem;
+    height: 1rem;
+    background-color: #47adf1;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.25rem;
+    border: 1px solid #47adf1;
+}
+
+#section {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 5rem;
+    height: 1rem;
+    background-color: #ffffff;
+    color: #cfd5d8;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.25rem;
+    border: 1px solid #cfd5d8;
+}
+
+#check {
+    color:green;
+    border: solid 1px green;
+    border-radius: 2rem;
 }
